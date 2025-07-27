@@ -1,0 +1,82 @@
+/* --- Base Styles for Desktop --- */
+.nav {
+  background: transparent !important;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  font-family: sans-serif;
+}
+
+/* Logo or Brand Name */
+.nav .logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Nav Links Container */
+.nav-menu {
+  display: flex;
+  gap: 20px;
+}
+
+/* Nav Link Style */
+.nav-link {
+  font-size: 15px;
+  padding: 0.9rem 20px;
+  color: #000;
+  font-weight: 400;
+  opacity: 1 !important;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  color: #e86ed0;
+}
+
+/* --- Mobile Styles --- */
+.nav-toggle {
+  display: none;
+  font-size: 26px;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+/* 
+/* Mobile Responsive - Less than 1024px */
+/* @media (max-width: 1024px) {
+  .nav {
+    flex-wrap: wrap;
+  }
+
+  .nav-toggle {
+    display: block;
+    margin-left: auto;
+  }
+
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 0;
+  }
+
+  .nav-menu.show {
+    display: flex;
+  }
+
+  .nav-link {
+    width: 100%;
+    padding: 12px 20px;
+    border-bottom: 1px solid #eee;
+  }
+} */ */
