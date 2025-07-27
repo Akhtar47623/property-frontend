@@ -1,0 +1,229 @@
+/* styles.css */
+
+.banner-section {
+  background-image: url("https://preview.colorlib.com/theme/uptown/images/bg_1.jpg.webp");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 850px;
+  background-color: black;
+  position: relative;
+}
+.banner {
+  position: relative;
+  display: flex;
+  justify-content: center; /* Horizontally center content */
+  align-items: center; /* Vertically center content */
+  height: 600px; /* Adjust height as needed */
+}
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000;
+  text-align: center;
+  z-index: 2;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+section .banner .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  opacity: 1;
+  background: #fff;
+  background: white;
+  background: -moz-linear-gradient(
+    top,
+    white 0%,
+    white 3%,
+    rgba(255, 255, 255, 0) 54%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    left bottom,
+    color-stop(0%, white),
+    color-stop(3%, white),
+    color-stop(54%, rgba(255, 255, 255, 0)),
+    color-stop(100%, rgba(255, 255, 255, 0))
+  );
+  background: -webkit-linear-gradient(
+    top,
+    white 0%,
+    white 3%,
+    rgba(255, 255, 255, 0) 54%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background: -o-linear-gradient(
+    top,
+    white 0%,
+    white 3%,
+    rgba(255, 255, 255, 0) 54%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background: -ms-linear-gradient(
+    top,
+    white 0%,
+    white 3%,
+    rgba(255, 255, 255, 0) 54%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  /* background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(3%, white), color-stop(54%, rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0))); */
+  /* background: linear-gradient(to bottom, white 0%, white 3%, rgba(255, 255, 255, 0) 54%, rgba(255, 255, 255, 0) 100%); */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
+  /* height: 850px; */
+}
+.banner-content h1 {
+  font-size: 60px;
+  color: #000000;
+  line-height: 1.1;
+  font-weight: 400;
+}
+.banner-content p {
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 18px;
+}
+.input-search .input-control {
+  border: none;
+  height: 70px !important;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  border-radius: 40px;
+  padding-left: 25px;
+  padding-right: 50px;
+  -webkit-box-shadow: 0px 5px 27px -14px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 0px 5px 27px -14px rgba(0, 0, 0, 0.28);
+  box-shadow: 0px 5px 27px -14px rgba(0, 0, 0, 0.28);
+  background-color: white;
+}
+
+/* .input-search button {
+  background: transparent;
+  border: none;
+  position: absolute;
+  top: 277px;
+  right: 140px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 70px;
+  height: 70px;
+  border-radius: 0 50% 50% 50%;
+  background: #e86ed0;
+} */
+
+/* SERVICE SECTION  */
+.heading-section .sub-heading {
+  position: relative;
+  font-size: 18px;
+  display: inline-block;
+  margin-bottom: 0;
+  color: #e86ed0;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: relative;
+}
+.heading-section .sub-heading:before {
+  position: absolute;
+  top: 50%;
+  right: -60px;
+  content: "";
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 50px;
+  height: 1px;
+  margin-top: -1px;
+  background: #e86ed0;
+  -ms-transform: translateY(-50%);
+}
+.heading-section .sub-heading:after {
+  position: absolute;
+  top: 50%;
+  left: -60px;
+  content: "";
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 50px;
+  height: 1px;
+  margin-top: -1px;
+  background: #e86ed0;
+  -ms-transform: translateY(-50%);
+}
+.media-block .icon {
+  color: #e86ed0;
+  font-size: 60px;
+}
+.media-body {
+  padding-top: 25px;
+}
+.media-body p {
+  color: rgba(0, 0, 0, 0.8);
+  line-height: 30px;
+  padding-top: 10px;
+}
+.media-body h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #000000;
+}
+
+/* WHAT WE OFFER  */
+.property-img {
+  background-image: url("https://preview.colorlib.com/theme/uptown/images/work-1.jpg.webp");
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.property-content {
+  position: relative;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  margin-top: -50px;
+  margin-left: 20px;
+  background: #fff;
+  padding: 25px;
+  width: 75%;
+  margin-bottom: 50px;
+}
+.property-link span {
+  position: absolute;
+  width: 40px;
+  margin-top: -9px;
+  margin-left: 225px;
+  height: 40px;
+  border-radius: 19px 0px 0px 0px;
+}
+
+/* WORK FLOW SECTION  */
+
+.work-flow-section {
+  background-image: url("https://preview.colorlib.com/theme/uptown/images/bg_2.jpg.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.work-flow-icon {
+  background: #e86ed0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 95px;
+  padding: 31px;
+}
